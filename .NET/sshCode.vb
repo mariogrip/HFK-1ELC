@@ -1,4 +1,6 @@
+//Starter Classen Form1
 Public Class Form1
+    //Adder Arrys!
     Dim connInfo As New Renci.SshNet.PasswordConnectionInfo("192.168.1.200", "root", "root")
     Dim sshClient As New Renci.SshNet.SshClient(connInfo)
     Dim cmd As Renci.SshNet.SshCommand
